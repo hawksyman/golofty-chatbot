@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -25,11 +26,11 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         chatgpt: {
-          sidebar: "#171717",
-          main: "#212121",
-          secondary: "#444654",
-          hover: "#2A2B32",
-          border: "#4E4F60"
+          sidebar: "#F1F1F1",
+          main: "#FFFFFF",
+          secondary: "#F8F8F8",
+          hover: "#ECECEC",
+          border: "#E5E5E5"
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",
