@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import Sidebar from '@/components/Sidebar';
@@ -72,6 +73,11 @@ const Index = () => {
           {messages.length === 0 ? (
             <div className="w-full max-w-3xl px-4 space-y-4">
               <div>
+                <img 
+                  src="/lovable-uploads/78473786-e641-4155-aa0e-e3b04912c82f.png" 
+                  alt="go:lofty logo" 
+                  className="h-12 mx-auto mb-6"
+                />
                 <h1 className="mb-8 text-4xl font-semibold text-center">What can I help with?</h1>
                 <ChatInput onSend={handleSendMessage} isLoading={isLoading} />
               </div>
