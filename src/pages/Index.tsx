@@ -76,7 +76,7 @@ const Index = () => {
                 <img 
                   src="/lovable-uploads/78473786-e641-4155-aa0e-e3b04912c82f.png" 
                   alt="go:lofty logo" 
-                  className="h-12 mx-auto mb-6"
+                  className="h-24 mx-auto mb-8"
                 />
                 <h1 className="mb-8 text-4xl font-semibold text-center">What can I help with?</h1>
                 <ChatInput onSend={handleSendMessage} isLoading={isLoading} />
